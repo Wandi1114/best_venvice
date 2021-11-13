@@ -1,0 +1,33 @@
+{
+  "name": "percobaan",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "devStart": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "express-rate-limit": "^5.4.1",
+    "fs": "0.0.1-security",
+    "googleapis": "^88.2.0",
+    "http-errors": "^1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.18.1",
+    "nocache": "^3.0.1",
+    "node-schedule": "^2.0.0",
+    "nodemailer": "^6.6.5",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.13",
+    "otp-generator": "^2.0.1",
+    "pdf-creator-node": "^2.2.4"
+  }
+}
